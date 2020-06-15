@@ -1,6 +1,7 @@
 import React from "react";
 //import ReactDOM from "react-dom"
 import './App.css';
+import Counter from "./Reducer";
 
 
 function App() {
@@ -14,6 +15,11 @@ function App() {
     <div>
       <Text theme={theme}/>
       <button onClick = {onClickHandler}>Change Color</button>
+
+
+      <Counter/>
+
+
     </div>
   );
 }
